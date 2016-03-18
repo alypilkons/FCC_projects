@@ -1,0 +1,62 @@
+body {
+  margin-top: 50px;
+  background: url("http://static1.squarespace.com/static/54d7ec9fe4b0b474c0846e4f/t/55b33df8e4b0e4109a70c0c1/1437810222753/wood_desktop_background_33.jpg?format=2500w") no-repeat top center fixed;
+  background-size: cover;
+}
+
+.calc {
+  height: 485px;
+  width: 400px;
+  background-color: #333;
+  border-radius: 30px;
+  border: 3px solid black;
+  margin: auto;
+  box-shadow: 5px 5px 4px rgba(0,0,0, .2);
+}
+
+#screen {
+  height: 80px;
+  width: 370px;
+  background-color: #e6fff5;
+  border-radius: 15px;
+  font-family: 'Inconsolata';
+  font-size: 60px;
+  text-align: right;
+  margin-right: 5px;
+  margin-left: 14px;
+  border: 3px solid #808080;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  box-shadow: inset 5px 5px 50px rgba(0,0,0, .3)
+}
+
+.number, .operator, #decimal, #equals, #clear, #allClear {
+  background-color: #ccc;
+  font-size: 40px;
+  padding: 8px 27px;
+  margin-left: 17px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  border: 1px solid black;
+  font-family: 'Inconsolata';
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5)
+}
+
+.number:active, .operator:active, #decimal:active, #equals:active, #clear:active, #allClear:active {
+  box-shadow: inset 1px 3px 4px rgba(0,0,0, .4);
+}
+
+#clear, #allClear {
+  padding: 0px 50px;
+  margin-left: 50px;
+  background-color: #b30059;
+}
+
+#equals {
+  background-color: orange;
+}
+
+a:hover {
+  cursor: pointer;
+}
