@@ -1,0 +1,81 @@
+html {
+  font-family: 'Patua One', cursive;
+}
+
+.clear {
+  background: url("http://eskipaper.com/images/lovely-nature-background-1.jpg") no-repeat top center fixed;
+  background-size: cover;
+}
+
+.rain {
+   background: /*url("http://webneel.com/wallpaper/sites/default/files/images/04-2013/creative-rain_0.jpg") */
+ url("http://img2.thejournal.ie/inline/1109395/original/?width=500&version=1109395") no-repeat top center fixed;
+  background-size: cover;
+}
+
+.clouds {
+  background: url("http://openwalls.com/image/8583/cloudy_day_7_1920x1200.jpg") no-repeat top center fixed;
+  background-size: cover;
+} 
+
+
+.snow {
+  background: url("https://i.ytimg.com/vi/kJGjueu-s0U/maxresdefault.jpg") no-repeat top center fixed;
+  background-size: cover;
+}
+
+.mist {
+  background: url("http://www.zocalopublicsquare.org/wp-content/uploads/2010/05/mist.jpg") no-repeat top center fixed;
+  background-size: cover;
+}
+
+.thunderstorm {
+  background: url("http://createapk.com/project/2014/06/aboe2001/thunderstorm-wallpaper/image/5306-thunderstorm-wallpaper.jpg") no-repeat top center fixed;
+  background-size: cover;
+}
+
+.haze {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/b/be/Haze_obscuring_Marine_Parade.JPG") no-repeat top center fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+#infoBox {
+  text-align: center;
+  width: 40%; 
+  padding: 3px;
+  border-radius: 10px;
+  margin: 60px auto;
+  background:rgba(255,255,255,0.5);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+ a {
+  display: inline;
+  height: 20px;
+  width: 30px;
+  padding: 7px;
+  margin: 5px;
+  background-color: #d9d9d9;
+  border: 1px #bfbfbf solid;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  #infoBox {
+    width: 55%;
+  };
+}
+
+@media (min-width: 1400px) {
+  #infoBox {
+    width: 20%;
+  }
+}
