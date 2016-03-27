@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  font-family: 'Play', sans-serif;
+  background-color: #d9d9d9;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+.streamer {
+  border: 4px gray solid;
+  border-radius: 15px;
+  margin: 10px auto;
+  padding: 8px;
+  width: 50%; 
+}
+
+@media (max-width:900px) {
+  .streamer {
+    width: 85%;
+  }
+}
+
+.streamer:hover{
+  border-left: 10px gray solid;
+}
+
+img {
+  width: 50px;
+  border-radius: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.active {
+  background-color: #99ffbb;
+}
+
+.offline {
+  background-color: #ff6666;
+}
+
+.unavailable {
+  background-color: #666;
+}
+
+.unavailable:hover {
+  border: 4px gray solid;
+}
