@@ -1,0 +1,15 @@
+body {
+  margin-top: 40px;
+}
+
+h1, h4 {
+  font-family: "Coming Soon"; sans-serif;
+}
+
+.jumbotron {
+  background-color: #F1F2D0;
+}
+
+img {
+  border: 2px black solid;
+}
