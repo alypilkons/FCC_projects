@@ -1,0 +1,119 @@
+#container {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Fredoka One", sans-serif;
+}
+
+/* BUTTONS FOR CHOOSING X OR O */
+#X, #O {
+  border: 1.5px solid #404040;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#X:hover, #O:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+/***************/
+
+/* BOARD STRUCTURE */
+#square1 {
+  border-style: none solid solid none;
+}
+
+#square2 {
+  border-style: none solid solid solid;
+}
+
+#square3 {
+  border-style: none none solid solid;
+}
+
+#square4 {
+  border-style: solid solid solid none;
+}
+
+#square6 {
+  border-style: solid none solid solid; 
+}
+
+#square7 {
+  border-style: solid solid none none;
+}
+
+#square8 {
+  border-style: solid solid none solid;
+}
+
+#square9 {
+  border-style: solid none none solid;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  display: inline-block;
+  margin: -2px;
+  border: 2px gray solid;
+  vertical-align: top;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+/*******************/
+
+/* FOR MODAL WINDOW */
+.modal {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 3% auto;
+    padding: 50px;
+    border: 2px solid #888;
+    border-radius: 10px;
+    width: 20%;
+}
+
+@media (max-width: 950px) {
+  .modal-content{
+    margin: 8% auto;
+    padding: 50px;
+    width: 45%;
+  }
+}
+
+.modal-content p {
+  font-size: 30px;
+}
+
+a {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.btn {
+  margin: 5px;
+}
+/***************/

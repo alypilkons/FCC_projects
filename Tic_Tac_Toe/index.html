@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Minimalist Tic Tac Toe</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+  <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="container">
+  <!--CHOOSE A LETTER-->
+    <p class="openingLine">Would you like to play as <span id="X">X</span> or <span id="O">O</span> ?</p>
+    <p id="part2">(X goes first.)</p>
+  <!---->
+  <br>
+  
+<!--TIC TAC TOE BOARD-->
+  <div class="board">
+  <div>
+    <div id="square1" class="box"><p></p></div>
+    <div id="square2" class="box"><p></p></div>
+    <div id="square3" class="box"><p></p></div>
+  </div>
+  <div>
+    <div id="square4" class="box"><p></p></div>
+    <div id="square5" class="box"><p></p></div>
+    <div id="square6" class="box"><p></p></div>
+  </div>
+  <div>
+    <div id="square7" class="box"><p></p></div>
+    <div id="square8" class="box"><p></p></div>
+    <div id="square9" class="box"><p></p></div>
+  </div>
+  </div>
+ <!--END BOARD-->
+
+  <br>
+  <br>
+  <br>
+
+<!--MODAL WINDOW-->  
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <p></p>
+      <a class="btn close">Play Again</a>
+      <a class="btn letterChange">Change Letter</a>
+    </div>
+  </div>
+<!--END MODAL-->
+  
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="ticTacToe.js"></script>
+</body>
+</html>
