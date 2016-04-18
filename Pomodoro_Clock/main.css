@@ -1,0 +1,55 @@
+body {
+ font-family: 'Dosis', sans-serif;
+  text-align: center;
+  background: #f4f4ef;
+}
+
+#title {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+#mainTime {
+  display: inline;
+  padding: 10px;
+  font-size: 10em;
+}
+
+a {
+  font-size: 20px;
+  padding: 0 8px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:active {
+  background-color: #cce5ff;
+}
+
+.button {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+#stop {
+  background-color: #ffb3b3;
+}
