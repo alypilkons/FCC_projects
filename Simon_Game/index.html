@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Play Simon!</title>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Jura:400,600' rel='stylesheet' type='text/css'>
+  <link href='main.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class="container">
+    <h1>SIMON</h1>
+    <p id="fullScore">Level: <span id="scoreHere">0</span></p>
+    <div class="gameBoard">
+      <div>
+        <div id="green" class="gameSquare"></div> 
+        <div id="red" class="gameSquare"></div>
+      </div>
+      <div>
+        <div id="yellow" class="gameSquare"></div>
+        <div id="blue" class="gameSquare"></div>
+      </div>
+    </div>
+   <br>
+   <button class="start">Start</button>
+   <br>
+   <br>
+   <span class="strict">Strict Mode</span>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+  </script>
+  <script src="gamePlay.js">
+  </script>
+</body>
+</html>
